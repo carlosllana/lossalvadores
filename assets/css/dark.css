@@ -1,0 +1,88 @@
+
+section {
+	background-color: #000;
+}
+.about-content > span,
+.about-content p,
+.sec-title > h3,
+.project-text p,
+.title-content > h3,
+.abz-tm > h3,
+.abz-tm > a,
+.hd-txt > h2,
+.email-tk > h2,
+.get-touch-content ul li > h3,
+.contact-sec-v1 > h3,
+.mm-txt > h3,
+.mm-content > a {
+	color: #fff;
+}
+.about-content > h2,
+.project-text > h2,
+.title-content > h2,
+.studio-sec > h2,
+.our-svss-sec > h2,
+.page-title > h2,
+.email-tk > h4,
+.sec-v2-title > h2,
+.pricing-page-content > h3,
+.sk-title,
+.single-project-content > h2,
+.team-col > h3 {
+	color: #FFEDC8;
+}
+.pt-logo > a img {
+	opacity: 1;	
+}
+.abz-para p,
+.hd-txt p,
+.linkss li,
+.get-touch-content p,
+.sec-v2-title p,
+.mm-content p,
+.team-col > span {
+	color: rgba(255,255,255,0.80);
+}
+.abz-tm > a {
+	border-bottom-color: #fff;
+}
+
+.contact-form-v1 input:focus, .contact-form-v1 textarea:focus {
+	background-color: transparent;
+}
+.contact-form-v1 input,
+.contact-form-v1 textarea {
+	color: rgba(255,255,255,0.60);
+}
+.contact-form-v1 input::-webkit-input-placeholder,
+.contact-form-v1 textarea::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+	color: rgba(255,255,255,0.60);
+}
+.contact-form-v1 input::-moz-placeholder,
+.contact-form-v1 textarea::-moz-placeholder { /* Firefox 19+ */
+	color: rgba(255,255,255,0.60);
+}
+.contact-form-v1 input:-ms-input-placeholder,
+.contact-form-v1 textarea:-ms-input-placeholder { /* IE 10+ */
+	color: rgba(255,255,255,0.60);
+}
+.contact-form-v1 input:-moz-placeholder,
+.contact-form-v1 textarea:-moz-placeholder { /* Firefox 18- */
+	color: rgba(255,255,255,0.60);
+}
+
+.mm-content > a:before {
+	background-color: #fff;
+}
+
+
+.option-set li a {
+	color: #ff1d4d;
+}
+
+.main-banner:before {
+	background-color: #00bdaa;
+}
+.main-banner:after {
+	background-color: #121212;
+}
