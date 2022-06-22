@@ -29,10 +29,7 @@ body{
 	color: #473C46;
 	animation: gradient 20s ease infinite;
     background: linear-gradient(0deg, #ffffff, #f0efe0, #efd6a1,#F95D4E, #ff0048);
-	
 	background-size: 200% 200%;
-
-	
 	/*overflow-x:hidden !important; */
 }
 
