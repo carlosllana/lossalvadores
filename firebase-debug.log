@@ -1,0 +1,43 @@
+[debug] [2022-06-22T18:51:07.945Z] ----------------------------------------------------------------------
+[debug] [2022-06-22T18:51:07.947Z] Command:       /usr/local/bin/node /usr/local/bin/firebase emulators:start
+[debug] [2022-06-22T18:51:07.947Z] CLI Version:   11.1.0
+[debug] [2022-06-22T18:51:07.947Z] Platform:      darwin
+[debug] [2022-06-22T18:51:07.947Z] Node Version:  v16.15.0
+[debug] [2022-06-22T18:51:07.948Z] Time:          Wed Jun 22 2022 14:51:07 GMT-0400 (Chile Standard Time)
+[debug] [2022-06-22T18:51:07.948Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-06-22T18:51:07.995Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-06-22T18:51:07.995Z] > authorizing via signed-in user (carlos@lossalvadores.com)
+[info] i  emulators: Starting emulators: hosting {"metadata":{"emulator":{"name":"hub"},"message":"Starting emulators: hosting"}}
+[debug] [2022-06-22T18:51:08.031Z] [hub] writing locator at /var/folders/x8/xqj3c1c57zn29r_5l_0yb9hw0000gn/T/hub-sound-inn-239502.json
+[debug] [2022-06-22T18:51:08.044Z] > refreshing access token with scopes: []
+[debug] [2022-06-22T18:51:08.046Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2022-06-22T18:51:08.046Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2022-06-22T18:51:08.126Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2022-06-22T18:51:08.126Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2022-06-22T18:51:08.139Z] >>> [apiv2][query] GET https://firebasehosting.googleapis.com/v1beta1/projects/sound-inn-239502/sites 
+[debug] [2022-06-22T18:51:09.194Z] <<< [apiv2][status] GET https://firebasehosting.googleapis.com/v1beta1/projects/sound-inn-239502/sites 200
+[debug] [2022-06-22T18:51:09.194Z] <<< [apiv2][body] GET https://firebasehosting.googleapis.com/v1beta1/projects/sound-inn-239502/sites {"sites":[{"name":"projects/sound-inn-239502/sites/sound-inn-239502","defaultUrl":"https://sound-inn-239502.web.app","appId":"1:856468924993:web:b31f35ef48e343b4c3b4c0","type":"DEFAULT_SITE"}]}
+[debug] [2022-06-22T18:51:09.194Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/sound-inn-239502/webApps/1:856468924993:web:b31f35ef48e343b4c3b4c0/config [none]
+[debug] [2022-06-22T18:51:10.397Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/sound-inn-239502/webApps/1:856468924993:web:b31f35ef48e343b4c3b4c0/config 200
+[debug] [2022-06-22T18:51:10.397Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/sound-inn-239502/webApps/1:856468924993:web:b31f35ef48e343b4c3b4c0/config {"projectId":"sound-inn-239502","appId":"1:856468924993:web:b31f35ef48e343b4c3b4c0","databaseURL":"https://sound-inn-239502.firebaseio.com","storageBucket":"sound-inn-239502.appspot.com","locationId":"southamerica-east1","apiKey":"AIzaSyAaPxw1Dit3M6bOBiOi-kZOjTyukL_1PFE","authDomain":"sound-inn-239502.firebaseapp.com","messagingSenderId":"856468924993"}
+[info] i  hosting: Serving hosting files from: public {"metadata":{"emulator":{"name":"hosting"},"message":"Serving hosting files from: \u001b[1mpublic\u001b[22m"}}
+[info] ✔  hosting: Local server: http://localhost:5000 {"metadata":{"emulator":{"name":"hosting"},"message":"Local server: \u001b[4m\u001b[1mhttp://localhost:5000\u001b[22m\u001b[24m"}}
+[warn] ⚠  emulators: The Emulator UI requires a project ID to start. Configure your default project with 'firebase use' or pass the --project flag. {"metadata":{"emulator":{"name":"hub"},"message":"The Emulator UI requires a project ID to start. Configure your default project with 'firebase use' or pass the --project flag."}}
+[info] 
+┌─────────────────────────────────────────────────────────────┐
+│ ✔  All emulators ready! It is now safe to connect your app. │
+└─────────────────────────────────────────────────────────────┘
+
+┌──────────┬────────────────┐
+│ Emulator │ Host:Port      │
+├──────────┼────────────────┤
+│ Hosting  │ localhost:5000 │
+└──────────┴────────────────┘
+  Emulator Hub running at localhost:4400
+  Other reserved ports: 4500
+
+Issues? Report them at https://github.com/firebase/firebase-tools/issues and attach the *-debug.log files.
+ 
+[info] i  hosting: 127.0.0.1 - - [22/Jun/2022:18:52:00 +0000] "GET / HTTP/1.1" 200 12144 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.53 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [22/Jun/2022:18:52:00 +0000] \"GET / HTTP/1.1\" 200 12144 \"-\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.53 Safari/537.36\""}}
+[info] i  hosting: 127.0.0.1 - - [22/Jun/2022:18:52:07 +0000] "GET /bootstrap/css/bootstrap.css.map HTTP/1.1" 200 514512 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.53 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [22/Jun/2022:18:52:07 +0000] \"GET /bootstrap/css/bootstrap.css.map HTTP/1.1\" 200 514512 \"-\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.53 Safari/537.36\""}}

@@ -34,10 +34,7 @@ body
 body{
 	font-family: 'Roboto', sans-serif; 
 	color: #473C46;
-	animation: gradient 20s ease infinite;
-	background: linear-gradient(0deg, #473C46, #473C46, #F9404E, #F95D4E,#F95D4E);
-	
-	background-size: 200% 200%;
+
 
 	
 	/*overflow-x:hidden !important; */
