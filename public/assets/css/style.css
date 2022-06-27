@@ -28,20 +28,20 @@ body{
 	font-family: 'Roboto', sans-serif; 
 	color: #473C46;
 	animation: gradient 20s ease infinite;
-    background: linear-gradient(0deg, #ffffff, #f0efe0, #efd6a1,#F95D4E, #ff0048);
-	background-size: 200% 200%;
+    background: linear-gradient(0deg, #f0efe0,#f0efe0, #efd6a1,#F95D4E, #ff0048, #ff0048);
+	background-size: 160% 160%;
 	/*overflow-x:hidden !important; */
 }
 
 @keyframes gradient {
 	0% {
-		background-position: 0% 70%;
+		background-position: 0% 50%;
 	}
 	50% {
-		background-position: 100% 80%;
+		background-position: 40% 80%;
 	}
 	100% {
-		background-position: 0% 70%;
+		background-position: 0% 50%;
 	}
 }
 
@@ -913,7 +913,7 @@ footer .container {
 }
 .widget-about > span {
 	display: block;
-	color: #FFEDC8;
+	color: #EE1C4D;
 	font-size: 17.33px;
 }
 
@@ -922,7 +922,7 @@ footer .container {
 	margin: 0 auto;
 }
 .widget-newsletter > h2 {
-	color: #FFEDC8;
+	color: #EE1C4D;
 	font-size: 32px;
 	margin-bottom: 34px;
 	margin-top: -8px;
@@ -932,7 +932,7 @@ footer .container {
 }
 .widget-newsletter form input {
 	width: 100%;
-	color: #FFEDC8;
+	color: #EE1C4D;
 	font-size: 20px;
 	border-bottom: 1px solid #d8c9cc;
 	background-color: inherit;
@@ -968,7 +968,7 @@ footer .container {
 	margin-left: auto;
 }
 .widget-follow > h3 {
-	color: #FFEDC8;
+	color: #EE1C4D;
 	font-size: 14.67px;
 	text-transform: uppercase;
 	margin-bottom: 64px;
@@ -980,11 +980,11 @@ footer .container {
 }
 .social-links li a {
 	display: inline-block;
-	color: #FFEDC8;
+	color: #EE1C4D;
 	font-size: 18px;
 }
 .social-links li a:hover {
-	color: #FFEDC8;
+	color: #483C46;
 }
 .social-links li:last-child {
 	margin: 0;

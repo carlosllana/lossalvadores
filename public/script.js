@@ -37,7 +37,7 @@ var uSpeed = 0.001;
 
 //----------------------------------------------------------------- FOG background
 
-var setcolor = 0x473C46;
+var setcolor = 0xFf0efe0;
 
 scene.background = new THREE.Color(setcolor);
 scene.fog = new THREE.Fog(setcolor, 5, 16);
@@ -52,12 +52,12 @@ var setTintNum = true;
 function setTintColor() {
   if (setTintNum) {
     setTintNum = false;
-    var setColor = 0x473C46;
+    var setColor = 0xF0EEE0;
   } else {
     setTintNum = true;
-    var setColor = 0x473C46;
+    var setColor = 0xF0EEE0;
   };
-  //setColor = 0x222222;
+  //setColor = 0xF0EEE0;
   return setColor;
 };
 
@@ -70,9 +70,9 @@ function init() {
     var material = new THREE.MeshStandardMaterial({
       color:setTintColor(),
       wireframe:true,
-      //opacity:0.9,
+      //opacity:0.6,
       //transparent:true,
-      //roughness: 0.3,
+      //roughness: 0.9,
       //metalness: 1,
       shading: THREE.SmoothShading,
       //shading:THREE.FlatShading,
@@ -81,7 +81,7 @@ function init() {
       color:0xF9404E,
       wireframe:true,
       transparent:true,
-      opacity: 0.8,
+      opacity: 0.6,
       side:THREE.DoubleSide/*,
       shading:THREE.FlatShading*/});
 
@@ -117,7 +117,7 @@ function init() {
   };
   //----------------------------------------------------------------- Particular
   
-  var gmaterial = new THREE.MeshToonMaterial({color:0xF9404E, side:THREE.DoubleSide});
+  var gmaterial = new THREE.MeshToonMaterial({color:0xEE1C4D, side:THREE.DoubleSide});
   var gparticular = new THREE.CircleGeometry(0.02, 20);
   var aparticular = 5;
   
@@ -129,11 +129,11 @@ function init() {
   };
   
   var pmaterial = new THREE.MeshPhongMaterial({
-    color:0x473C46,
+    color:0x483C46,
     side:THREE.DoubleSide,
     roughness: 1,
-    metalness: 0.3,
-    opacity:0.6,
+    metalness: 0.9,
+    opacity:0.9,
     transparent:true});
   var pgeometry = new THREE.PlaneGeometry(60,60);
   var pelement = new THREE.Mesh(pgeometry, pmaterial);
@@ -174,9 +174,9 @@ window.addEventListener('touchstart', onDocumentTouchStart, false );
 window.addEventListener('touchmove', onDocumentTouchMove, false );
 
 //----------------------------------------------------------------- Lights
-var ambientLight = new THREE.AmbientLight(0x473C46, 4);
-var lightFront = new THREE.SpotLight(0x473C46, 20, 1);
-var lightBack = new THREE.PointLight(0x473C46, 0.5);
+var ambientLight = new THREE.AmbientLight(0x483C46, 4);
+var lightFront = new THREE.SpotLight(0x483C46, 20, 1);
+var lightBack = new THREE.PointLight(0x483C46, 1);
 
 var spotLightHelper = new THREE.SpotLightHelper( lightFront );
 //scene.add( spotLightHelper );
@@ -200,7 +200,7 @@ city.add(smoke);
 city.add(town);
 
 //----------------------------------------------------------------- GRID Helper
-var gridHelper = new THREE.GridHelper( 60, 120, 0xF9404E, 0x473C46);
+var gridHelper = new THREE.GridHelper( 100, 120, 0x483C46, 0x483C46);
 city.add( gridHelper );
 
 //----------------------------------------------------------------- CAR world
@@ -209,7 +209,7 @@ var generateCar = function() {
 }
 //----------------------------------------------------------------- LINES world
 
-var createCars = function(cScale = 2, cPos = 20, cColor = 0xF9404E) {
+var createCars = function(cScale = 2, cPos = 20, cColor = 0x483C46) {
   var cMat = new THREE.MeshToonMaterial({color:cColor, side:THREE.DoubleSide});
   var cGeo = new THREE.CubeGeometry(1, cScale/40, cScale/40);
   var cElem = new THREE.Mesh(cGeo, cMat);
@@ -244,7 +244,7 @@ var generateLines = function() {
 //----------------------------------------------------------------- CAMERA position
 
 var cameraSet = function() {
-  createCars(0.1, 20, 0xF9404E);
+  createCars(0.1, 20, 0x483C46);
   //TweenMax.to(camera.position, 1, {y:1+Math.random()*4, ease:Expo.easeInOut})
 };
 
