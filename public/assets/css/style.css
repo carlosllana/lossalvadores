@@ -27,12 +27,19 @@ body
 body{
 	font-family: 'Roboto', sans-serif; 
 	color: #473C46;
-	animation: gradient 20s ease infinite;
-    background: linear-gradient(0deg, #f0efe0,#f0efe0, #efd6a1,#F95D4E, #ff0048, #ff0048);
-	background-size: 160% 160%;
+	
+    background: linear-gradient(0deg, #f0efe0,#f0efe0, #efd6a1,#F95D4E, #ff0048);
+	background-size: 100% 100%;
 	/*overflow-x:hidden !important; */
 }
-
+.proyectosbody{
+	font-family: 'Roboto', sans-serif; 
+	color: #473C46;
+	
+    background: linear-gradient(0deg,#f0efe0, #efd6a1,#F95D4E, #ff0048);
+	background-size: 100% 100%;
+	/*overflow-x:hidden !important; */
+}
 @keyframes gradient {
 	0% {
 		background-position: 0% 50%;

@@ -369,7 +369,7 @@
 
 
 #loop1{
-	background-image: url('../images/loop1b_2_small.gif');  
+	background-image: url('../images/header_tmil2_small.png');  
     background-size: cover;
 
 	background-clip:content-box;
@@ -379,7 +379,7 @@
 
 }
 #loop2{
-	background-image: url('../images/loop1b_1_small.gif');  
+	background-image: url('../images/header_copa_small.png');  
     background-size: cover;
 	background-clip:content-box;
 	background-position: center center;
@@ -387,7 +387,7 @@
 	min-height: 200px;
 }
 #loop3{
-	background-image: url('../images/loop1b_3_small.gif');  
+	background-image: url('../images/header_small_tarquinia.png');  
     background-size: cover;
 	background-clip:content-box;
 	background-position: center center;
