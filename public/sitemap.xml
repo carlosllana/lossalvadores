@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>https://www.lossalvadores.cl/</loc>
+  <lastmod>2022-07-01T18:31:43+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://www.lossalvadores.cl/index.html</loc>
+  <lastmod>2022-07-01T18:31:43+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.lossalvadores.cl/nosotros.html</loc>
+  <lastmod>2022-06-30T01:05:12+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.lossalvadores.cl/portfolio.html</loc>
+  <lastmod>2022-07-10T00:17:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.lossalvadores.cl/contacto.html</loc>
+  <lastmod>2022-07-08T15:05:20+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.lossalvadores.cl/realidad_aumentada_libertadores.html</loc>
+  <lastmod>2022-07-10T00:17:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.lossalvadores.cl/plataforma_netflix_video.html</loc>
+  <lastmod>2022-07-10T00:17:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.lossalvadores.cl/plataforma_blockchain_nft.html</loc>
+  <lastmod>2022-07-10T00:17:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+
+
+</urlset>
